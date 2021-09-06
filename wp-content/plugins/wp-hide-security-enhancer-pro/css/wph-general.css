@@ -1,0 +1,12 @@
+
+.wph-notice { position: relative}
+.wph-message-close {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 10px 15px 10px 21px;
+        font-size: 13px;
+        line-height: 1.23076923;
+        text-decoration: none !important;
+     
+    }

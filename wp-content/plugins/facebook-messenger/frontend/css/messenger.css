@@ -1,0 +1,53 @@
+.thing {
+    top:0px;
+    z-index: 99999;
+}
+.facebook-messenger-avatar-type1 {
+    background: transparent !important;
+}
+.wrapper {position: relative; width: 100%; overflow: hidden;}
+.drag-wrapper .thing,.drag-wrapper .thing .circle,.drag-wrapper .magnet { width: 50px; height: 50px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;}
+.drag-wrapper .thing .circle,.drag-wrapper .magnet-zone {z-index: 999; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-perspective: 1000; -moz-perspective: 1000; perspective: 1000; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);}
+.drag-wrapper,.drag-wrapper *,.drag-wrapper :before, .drag-wrapper :after { -webkit-tap-highlight-color: transparent; -webkit-tap-highlight-color: transparent;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; /* For some Androids */}
+.drag-wrapper .thing { position: fixed; margin: 0px; cursor: pointer; -webkit-transform: translate(0, 0);-moz-transform: translate(0, 0); transform: translate(0, 0);}
+.drag-wrapper .thing .circle { position: absolute; text-align: center; top: 0; left: 0; right: 0; bottom: 0; background: #0075FF; background-size: contain; background-position: center; background-repeat: no-repeat; overflow: hidden; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);-webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1); -webkit-transition: -webkit-transform 50ms linear; -moz-transition: transform 50ms linear; transition: transform 50ms linear;}
+.drag-wrapper .thing .circle img{ max-width: 100%;height: auto; width: 75%; margin-top: 15%;}
+.drag-wrapper .thing.edge { -webkit-transition: all 400ms cubic-bezier(0.175, 0.885, 0.345, 1.1); -moz-transition: all 400ms cubic-bezier(0.175, 0.885, 0.345, 1.1); transition: all 400ms cubic-bezier(0.175, 0.885, 0.345, 1.1);}
+.drag-wrapper .thing .content{display: none; overflow: hidden; position: absolute; top: 100%; right: 0px; margin-top: 12px; padding: 20px; width: 350px; height: auto; background: #ffffff;border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow:    0px 0px 10px 2px rgba(0, 0, 0, 0.1);box-shadow:         0px 0px 10px 2px rgba(0, 0, 0, 0.1); border:none;}
+.drag-wrapper-left .thing .content{right: auto; left: 0}
+.drag-wrapper .thing .content:before{content: ''; position: absolute; top: -10px; right: 25px; width: 12px; height: 10px; border-bottom: 10px solid #ffffff; border-left: 6px solid transparent; border-right: 6px solid transparent;}
+.drag-wrapper .thing .content .inside{ max-height: 100% ; position: relative; overflow: hidden; width: 100%; }
+.drag-wrapper .magnet-zone { pointer-events: none; -webkit-transition: -webkit-transform 400ms cubic-bezier(0.175, 0.885, 0.145, 1.22); -moz-transition: -webkit-transform 400ms cubic-bezier(0.175, 0.885, 0.145, 1.22); transition: transform 400ms cubic-bezier(0.175, 0.885, 0.145, 1.22);}
+.drag-wrapper .magnet-zone { position: fixed; bottom: 10px; left: 50%; z-index: 999; padding: 10px 20px; text-align: center; -webkit-transform: translate(-50%, 100%) translateZ(0); -moz-transform: translate(-50%, 100%) translateZ(0); transform: translate(-50%, 100%) translateZ(0);}
+.drag-wrapper .magnet-zone.overlap .magnet { -webkit-transform: scale(1.08) translateZ(0); -moz-transform: scale(1.08) translateZ(0); transform: scale(1.08) translateZ(0);}
+.touching .drag-wrapper .circle { -webkit-transform: scale(0.9) translateZ(0); -moz-transform: scale(0.9) translateZ(0); transform: scale(0.9) translateZ(0);}
+.moving .drag-wrapper .container:before { opacity: 1;}
+.moving .drag-wrapper .magnet-zone { -webkit-transform: translate(-50%, 0) translateZ(0); -moz-transform: translate(-50%, 0) translateZ(0); transform: translate(-50%, 0) translateZ(0);}
+.drag-wrapper .magnet-zone:after { pointer-events: none; content: '\00d7'; position: absolute; left: 0; right: 0; top: 50%; text-align: center; font-size: 2em; font-weight: 100; color: #fff; -webkit-transform: translateY(-50%) translateZ(0); -moz-transform: translateY(-50%) translateZ(0); transform: translateY(-50%) translateZ(0);}
+.drag-wrapper .magnet { pointer-events: none; position: relative; border: 2px solid #fff; background: rgba(0, 0, 0, 0.3); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); -webkit-transform-origin: center; -moz-transform-origin: center; transform-origin: center;-webkit-transition: -webkit-transform 200ms cubic-bezier(0.175, 0.885, 0.145, 1.25); -moz-transition: -webkit-transform 200ms cubic-bezier(0.175, 0.885, 0.145, 1.25); transition: transform 200ms cubic-bezier(0.175, 0.885, 0.145, 1.25); -webkit-transform: scale(0.7) translateZ(0); -moz-transform: scale(0.7) translateZ(0); transform: scale(0.7) translateZ(0);}
+body:not(.touching) .drag-wrapper .thing{-webkit-transition: all 400ms cubic-bezier(0.175, 0.885, 0.345, 1.1); -moz-transition: all 400ms cubic-bezier(0.175, 0.885, 0.345, 1.1); transition: all 400ms cubic-bezier(0.175, 0.885, 0.345, 1.1);}
+.drag-wrapper .thing.showContent ~ .drag-overlay{ position: fixed; top: 0; left: 0; z-index: 99998; width: 100%; height: 100% }
+/*******CSS by Tommy *********/
+a.nj-facebook-messenger {
+text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .drag-wrapper .thing .content {
+      right: -17px;
+      width: 310px;
+      padding: 0 0 10px
+    }
+	.drag-wrapper .thing .content .inside{
+		transform: scale(0.92);
+		-webkit-transform: scale(0.92);
+		-moz-transform: scale(0.92);
+		overflow: visible;
+		transform-origin: top left;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+	}
+	.drag-wrapper .send-app{
+		margin-top: -15px;
+	}
+} 

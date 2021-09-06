@@ -1,0 +1,17 @@
+[Sep 2, 2019 05:23:07 8-error] [] Error #389283: Error #39752893b. Server reported an error performing action `connect` with additional params: `Array
+(
+)
+`. Body Details: `Array
+(
+    [type] => system
+    [name] => user
+    [message] => Unknown username or password.  Please use your iThemes username (not email) and password to log in.
+)
+`. Response Details: `Array
+(
+    [code] => 200
+    [message] => OK
+)
+`.
+[Sep 2, 2019 05:23:36 8-error] <span class="pb_label pb_label">Important</span> <b>Set an ImportBuddy password on the <a href="http://portfolio.local/wp-admin/admin.php?page=pb_backupbuddy_settings">Settings</a> page before attempting to Migrate to a new server.</b> Error Code: 
+[Sep 2, 2019 05:33:27 8-error] <span class="pb_label pb_label">Important</span> <b>Set an ImportBuddy password on the <a href="http://portfolio.local/wp-admin/admin.php?page=pb_backupbuddy_settings">Settings</a> page before attempting to Migrate to a new server.</b> Error Code: 

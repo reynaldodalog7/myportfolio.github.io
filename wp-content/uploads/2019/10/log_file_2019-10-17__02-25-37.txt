@@ -1,0 +1,22 @@
+
+---Downloaded files---
+The import files for: Demo 2 were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://ryancv.local
+Data file = /app/public/wp-content/themes/ryancv/demo/02/content.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---pt-ocdi/after_import---
+

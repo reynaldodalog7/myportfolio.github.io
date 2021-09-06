@@ -1,0 +1,141 @@
+#facebook_messenger_show_page, #facebook_messenger_hide_page{
+    max-height: 150px;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 15px;
+}
+#facebook-messenger-checkall-1, #facebook-messenger-checkall {
+    margin-left: 15px;
+}
+.ninja-support ul li {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 15px !important;
+    font-weight: bold;
+    padding-left: 30px !important;
+}
+.ninja-support ul li.document {
+    background: url(../images/document.png) no-repeat 5px center !important;
+}
+.ninja-support ul li.suport {
+    background: url(../images/help.png) no-repeat 5px center !important;
+}
+.ninja-support ul li.viewmore {
+    background: #0075ff url(../images/viewmore.png) no-repeat 5px center !important;
+    border-color: transparent;
+}
+.ninja-support ul li:hover {
+    opacity: 0.8;
+}
+.ninja-support ul li.viewmore a {
+    color: #fff;
+}
+.ninja-support ul li a {
+    text-decoration: none;
+}
+.ninja-support {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #aeabab;
+}
+.facebook_messenger_backgroud_default {
+    text-decoration: none;
+}
+#nj-fb-class td {
+        position: relative;
+}
+/*
+ * More plugins
+ */
+.njt-t-fbmess-row, .njt-t-fbmess-row * {
+    box-sizing: border-box;
+}
+.njt-t-fbmess-row a {
+    transition: all .3s ease 0s;
+}
+.njt-t-fbmess-row:after {content: " ";display: table;clear: both;}
+div[class^="njt-t-fbmess-col-"] {
+    float: left;
+    padding: 0 10px;
+}
+.njt-t-fbmess-col-4 {
+    width: 33.333%;
+}
+.njt-t-fb-mess-info {
+    padding: 20px;
+}
+.njt-t-fbmess-colinner {
+    background-color: #fff;
+    
+    border-radius: 3px;
+    transition: all .2s ease 0s;
+    -webkit-transition: all .2s ease 0s;
+    -o-transition: all .2s ease 0s;
+    position: relative;
+    top: 0;
+}
+.njt-t-fbmess-colinner:hover {
+    top: -4px;
+
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+    -o-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+
+}
+.njt-t-fb-mess-title {
+    margin: 10px 0;
+}
+.njt-t-fb-mess-title a {
+    color: #23282d;
+    text-decoration: none;
+}
+.njt-t-fb-mess-title a:hover,
+.njt-t-fb-mess-title a:focus{
+    color: #23282d;
+    outline: none;
+    box-shadow: none;
+}
+.njt-t-fbmess-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #0084ff;
+    text-decoration: none;
+    padding: 10px 4px;
+    border-radius: 3px;
+    min-width: 150px;
+    text-align: center;
+}
+.njt-t-fbmess-btn:hover,
+.njt-t-fbmess-btn:focus {
+    background-color: #037ef0;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.njt-t-fbmess-btn.njt-t-fbmess-viewall {
+    background-color: #78909c;
+}
+.njt-t-fbmess-btn.njt-t-fbmess-viewall:hover,
+.njt-t-fbmess-btn.njt-t-fbmess-viewall:focus {
+    background-color: #6b838f;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.njt-t-fbmess-colinner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.njt-t-fbmess-colinner .des {
+    color: #455a64;
+    margin: 20px 0 40px 0;
+}
+@media (max-width:767px){
+    .njt-t-fbmess-col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

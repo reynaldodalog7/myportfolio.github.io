@@ -1,0 +1,66 @@
+.facebook_messenger_popup {
+    background: #fff;
+    display: none;
+}
+.facebook_messenger_popup .popup_close{
+    position: absolute;
+    opacity: 0.65;
+    font-style: normal;
+    font-size: 28px;
+    overflow: visible;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    outline: none;
+    padding: 0;
+    z-index: 1046;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 40px;
+    height: 40px;
+    right: -13px;
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    line-height: 38px;
+    padding: 0;
+    top: -38px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-family: Arial,Baskerville,monospace !important;
+    color: #ffffff;
+}
+.facebook_messenger_popup .popup_close:hover{
+    border: 2px solid #fff;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8) rotateZ(90deg);
+    opacity: 1
+}
+body .drag-wrapper .thing .facebook-messenger-avatar-type1 img {
+    width: 100%;
+    margin-top: 0;
+    border-radius: 50%;
+    height: 100%;
+}
+.facebook_messenger_popup .send-app a {
+    border-radius: 0;
+}
+.send-app {
+    margin-top: 15px;
+    padding: 0px 15px;
+}
+.send-app a {
+    background: #0075ff;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 3px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.send-app a:hover {
+    opacity: 0.8;
+}

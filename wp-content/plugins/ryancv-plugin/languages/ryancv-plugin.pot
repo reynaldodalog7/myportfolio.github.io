@@ -1,0 +1,54 @@
+# Copyright (C) 2018 ryancv-plugin
+# This file is distributed under the same license as the ryancv-plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ryancv-plugin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/acf-ext/acf-cf7/acf-cf7-v5.php:29
+msgid "Contact Form 7"
+msgstr ""
+
+#: src/acf-ext/acf-cf7/acf-cf7-v5.php:52, src/acf-ext/acf-ionicons/acf-ionicons-v5.php:1528, src/acf-ext/acf-ui-google-font/acf-ui-google-font-v5.php:8719
+msgid "Error! Please enter a higher value"
+msgstr ""
+
+#: src/acf-ext/acf-cf7/acf-cf7-v5.php:79
+msgid "Allow Null?"
+msgstr ""
+
+#: src/acf-ext/acf-cf7/acf-cf7-v5.php:83, src/acf-ext/acf-cf7/acf-cf7-v5.php:94
+msgid "Yes"
+msgstr ""
+
+#: src/acf-ext/acf-cf7/acf-cf7-v5.php:84, src/acf-ext/acf-cf7/acf-cf7-v5.php:95
+msgid "No"
+msgstr ""
+
+#: src/acf-ext/acf-cf7/acf-cf7-v5.php:90
+msgid "Select Multiple?"
+msgstr ""
+
+#: src/acf-ext/acf-cf7/acf-cf7-v5.php:110
+msgid "Disable Forms?"
+msgstr ""
+
+#: src/acf-ext/acf-cf7/acf-cf7-v5.php:111
+msgid "User will not be able to select these forms"
+msgstr ""
+
+#: src/acf-ext/acf-ionicons/acf-ionicons-v5.php:1507
+msgid "Ionicons"
+msgstr ""
+
+#: src/acf-ext/acf-ui-google-font/acf-ui-google-font-v5.php:8698
+msgid "Google Font"
+msgstr ""

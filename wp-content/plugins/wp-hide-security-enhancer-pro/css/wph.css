@@ -1,0 +1,72 @@
+#wph h2.nav-tab-wrapper{padding-left: 10px}
+#wph h2 .nav-tab {font-size: 12px; font-weight: bold; padding: 2px 10px 3px; margin-right: 0;}
+#wph h2 #reset_settings, #wph #reset_settings_form .reset_settings{font-size: 11px;    height: auto;    line-height: 20px;    padding: 1px 5px;}
+#wph .ajax_loading {display: none}
+#wph .postbox .inside {    margin: 0;    padding: 0;}
+#wph h3.handle {border-bottom: 1px solid #e1e1e1; font-size: 14px;    line-height: 1.4;    margin: 0;    padding: 8px 12px;}
+#wph .postbox {margin-bottom: 0px}
+#wph .wph_input fieldset label {padding-bottom: 5px; display: block;}
+#wph #reset_settings_form {}
+#wph #reset_settings_form .reset_settings {margin-top: -31px;}
+
+table.wph_input {    border: 0 none;    background: #fff;}
+table.wph_input tbody tr td {    padding: 10px 12px;    border-top: 1px solid #f5f5f5;    border-bottom: 0 none; width: 100%;box-sizing: border-box;}
+table.wph_input tbody tr td.np {padding: 0px}
+table.wph_input tbody tr:first-child td,
+table.wph_input tbody tr:first-child td.label {    border-top: 0 none;}
+table.wph_input tbody tr td.data {    padding-bottom: 20px;}
+table.wph_input tbody tr td.data p.description {font-size: 12px; margin-bottom: 3px;}
+table.wph_input .dashicons {overflow: hidden}
+
+table.inner_table tbody tr td {padding-bottom: 12px}
+.inner_table .description {margin-bottom: 3px; font-style: normal;}
+table .submit .submitdelete {line-height: 25px;    text-align: left;    vertical-align: middle;border-bottom-color: red;    color: red; border-bottom-style: solid;    border-bottom-width: 1px;padding: 1px 2px;    text-decoration: none; margin-right: 20px}
+table .submit .submitdelete:hover {color:#FFF; background-color: red; border-color: red}
+table.wph_input tbody tr td.label {    width: 25%;    vertical-align: top;    background: #F9F9F9;    border-top: 1px solid #f0f0f0;    border-right: none}
+table.apto_rules tbody tr td{border-top: 0 none;}    
+table.wph_input img {vertical-align: middle;}
+table.even_table tr td {background-color:#FCFCFC}
+table.wph_input hr {border:1px dotted #E1E1E1; float: left;    margin-left: 15px;    width: 90%;    border-style:none none dotted;    color:#FFF;    background:#FFF;}
+table table.wph_input tr td{}
+table.wph_input tbody tr td.param {width: 50%}
+.conditional_rules table.wph_input td.param{width: 40%}
+.conditional_rules table.wph_input td.comparison{width: 12%}
+          
+table .select.multiple {height: 82px}
+table.wph_input tbody tr td h4 {margin: 0px; padding-bottom: 6px}
+table.wph_input tbody tr td h5 {font-size: 12px;    font-weight: normal;    margin: 0;    padding-bottom: 6px;    padding-top: 10px;}
+table.wph_input tbody tr td.label label{     font-size: 13px;    font-weight: bold;    padding: 0;    margin: 0;    color: #333;  cursor: default  }
+table.wph_input tbody tr td.label p, table.wph_input tbody tr td.label .description{    display: block;    font-size: 12px;    padding: 6px 0 !important;    margin: 0 !important;    font-style: normal;    line-height: 16px;    color: #999;}
+table.wph_input tbody tr td.label .description .important {color: #d54e21}
+table.wph_input tbody tr td.label .description .dashicons, table.wph_input tbody tr td.label .description span {display: inline-block}
+table.wph_input tbody tr td.label .description span {padding-left: 5px; line-height: 18px;}
+table.wph_input tbody tr td.label .description span a {display: inline-block}
+table.wph_input tbody tr td.label .description span.important {color: #d54e21; padding-left: 0px}
+table.wph_input tbody tr td.label .description span.info {padding-left: 0px; color:#d54e21; font-style: italic;}
+table.wph_input tbody tr td.label .description .pointer {cursor:pointer}
+table.wph_input tbody tr td.label .description .notice-success, table.wph_input tbody tr td.label .description .notice-error {padding: 10px 12px; background-color: #fff;}
+table.wph_input tbody tr td.label .description a.button {display: inline-block; vertical-align: middle;}
+table.wph_input tbody tr.submit td { text-align: right}
+table.wph_input tbody tr.submit td.label {border-right: 1px solid #F9F9F9}
+table.wph_input input[type=text],table.wph_input textarea,table.wph_input select{    width: 99.95%;    outline: none;}
+table.wph_input textarea {min-height: 150px}
+table.wph_input textarea.ex_block {max-width: calc(100% - 30px);; vertical-align: top; min-height: 80px; max-height: 80px}
+table.wph_input  tbody tr td .replacement_field {width: 47%; display: inline-block; vertical-align: middle;}
+table.wph_input  tbody tr td span.dashicons {vertical-align: middle; font-size: 14px; line-height: 20px;}
+table.wph_input  tbody tr td span.dashicons.close {font-size: 16px;}
+table.wph_input select {    padding: 2px;}
+table.wph_input input[type=text]:focus,table.wph_input textarea:focus,table.wph_input select:focus {    border-color:#98B6CB;}
+
+.postbox h3 span {display: inline-block; vertical-align: middle}
+
+#info_box {padding: 0 10px; border: 1px dashed #6aadcc; background-color: #FFF; margin: 10px 0 20px 0;-webkit-box-shadow: 1px 1px 7px rgba(50, 50, 50, 0.17);-moz-box-shadow:    1px 1px 7px rgba(50, 50, 50, 0.17);box-shadow:         1px 1px 7px rgba(50, 50, 50, 0.17);}
+#info_box a {text-decoration: none}
+#info_box #p_right {float: right; width: 230px; background-color:#f5f5f5; border-left: 1px dashed #dedede; border-right: 1px dashed #dedede; margin-left: 10px; text-align: center;}
+#info_box #p_socialize {padding: 20px 0px 20px 0}
+#info_box .p_s_item {float: none; padding: 0px 5px; margin: 0px; display: inline-block; vertical-align: middle;}
+#info_box .p_s_item > iframe, #info_box .p_s_item > div {display: block}
+#info_box .p_s_item.s_gp {padding-top: 3px; margin-left: 0px}
+
+                                                                                                                                                          
+h2.subtitle {font-size: 15px; font-style: italic; font-weight: bold}
+.wrap .example { color: #666666; font-size: 11px; font-weight: bold}
