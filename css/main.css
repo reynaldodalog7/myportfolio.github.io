@@ -1460,6 +1460,18 @@ textarea.form-control, textarea.form-control:focus {
 .g-recaptcha {
   margin-bottom: 20px;
 }
+
+.mapBox {
+  position: relative;
+  height: 300px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.mapBox iframe {
+  width: 100%;
+  height: 100%;
+}
 /* --- End of Contact Form --- */
 
 .map {
@@ -2262,12 +2274,14 @@ blockquote {
   .content-area {
     max-width: calc(100% - 330px);
   }
+
 }
 
 @media only screen and (min-width: 1025px) {
   .menu-toggle {
     display: none;
   }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2479,6 +2493,8 @@ blockquote {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+
 }
 
 
@@ -2534,6 +2550,8 @@ blockquote {
     padding-left: 30px;
     padding-right: 30px;
   }
+
+
 }
 
 
@@ -2599,6 +2617,8 @@ blockquote {
     margin: 0;
     width: 100%;
   }
+
+
 }
 
 
